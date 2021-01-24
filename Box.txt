@@ -1,0 +1,19 @@
+import java.util.*;
+
+class Main {
+  public static void main(String[] args) {
+    double w,h,area,perimeter;
+    
+    Scanner input = new Scanner(System.in);
+    System.out.print("가로");
+    w = input.nextDouble();
+    System.out.print("세로");
+    h = input.nextDouble();
+
+    area = w*h;
+    perimeter = 2*(w+h);
+
+    System.out.println("넓이" + area);
+    System.out.println("둘레" + perimeter);
+  }
+}
